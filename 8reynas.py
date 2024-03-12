@@ -21,7 +21,7 @@ def lugar_reynas(n, row, reynas):
 
     return False
 
-def solve_n_queens(n):
+def resolver_n_reynas(n):
     if n <= 0:
         print("No hay solución para {} reynas.".format(n))
         return
@@ -33,4 +33,4 @@ def solve_n_queens(n):
     else:
         print("No hay solución para {} reinas.".format(n))      
 
-solve_n_queens(8)
+resolver_n_reynas(8)
